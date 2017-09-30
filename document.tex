@@ -1,0 +1,28 @@
+\documentclass{beamer}
+\usepackage{xmpmulti}
+\usepackage{animate}
+\begin{document}
+ 
+ 	\begin{frame}
+ 		asd
+ 	\end{frame}
+ 	
+	\begin{frame}
+		\transduration<0-42>{0}
+		\multiinclude[<+->][format=pdf,graphics={width=\textwidth}]{/home/lera/AWI/defense/m}
+	\end{frame}
+
+ 	\begin{frame}
+ 		puk
+ 	\end{frame}
+ 	
+	
+	\begin{frame}
+		\animategraphics[loop,autoplay,width=\linewidth]{12}{/home/lera/AWI/defense/m-}{0}{42}
+	\end{frame}
+
+	\begin{frame}
+		qwe
+	\end{frame}
+	
+\end{document}
