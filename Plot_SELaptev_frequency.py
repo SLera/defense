@@ -17,17 +17,28 @@ import matplotlib as mpl
 #INDIR = 'X:\\LaptevFastIceproject\\Scripts\\LaptevSea\\Output\\Monthly_frequency_new\\temp\\'
 #OUTDIR = 'X:\\LaptevFastIceproject\\Scripts\\LaptevSea\Output\\Monthly_frequency_new\\temp\\Figures\\'
 
-INDIR = '/home/lera/AWI/LaptevFastIceproject/Scripts/LaptevSea/Output/LS_SE_1km_new_lm_Oct_Jul_Seasons/2000'
-OUTDIR = '/home/lera/AWI/defense/'
+INDIR = '/home/lera/AWI/LaptevFastIceproject/Scripts/ESiberian/Output/ESS_1km_lm_Oct_Aug_Seasons/2000'
+OUTDIR = '/home/lera/AWI/defense/ESS/'
 
 
 def create_map(res_file,FILENAME):
     fig = plt.figure(1,frameon=False, dpi=600)
     fig.add_axes([0, 0, 1, 1])
 
-    m = Basemap(resolution="h",projection='laea', lat_ts=90, lat_0=90., lon_0=0.,
-                llcrnrlon= 131.7520359690613, llcrnrlat= 79.649075580926876 ,
-                urcrnrlon= 133.09583606755186, urcrnrlat= 68.671528061194962)
+    lats = np.load('/home/lera/AWI/LaptevFastIceproject/Scripts/ESiberian/vars1km/lats1kmEASE_ESS_wgs')
+    lons = np.load('/home/lera/AWI/LaptevFastIceproject/Scripts/ESiberian/vars1km/lons1kmEASE_ESS_wgs')
+
+    #    INDIR_bath = 'D:\\LaptevFastIceproject\\Scripts\\ESiberian\\Bathymetry\\'
+    #    bath = np.load(INDIR_bath + 'bath_EASE_maxDepth_ESS')
+    m = Basemap(resolution="i",
+                projection='laea', lat_ts=90, lat_0=90., lon_0=0.,
+                llcrnrlon=lons[0, 0], llcrnrlat=lats[0, 0],
+                urcrnrlon=lons[-1, -1], urcrnrlat=lats[-1, -1],
+                rsphere=6371228)
+
+    #m = Basemap(resolution="h",projection='laea', lat_ts=90, lat_0=90., lon_0=0.,
+    #            llcrnrlon= 131.7520359690613, llcrnrlat= 79.649075580926876 ,
+    #            urcrnrlon= 133.09583606755186, urcrnrlat= 68.671528061194962)
 
     fast = np.load(FILENAME)
     m.imshow(fast)
