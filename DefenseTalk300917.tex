@@ -1,0 +1,578 @@
+\documentclass[8pt]{beamer}
+\usepackage[absolute,overlay]{textpos}
+%\documentclass[handout]{beamer}
+%\usepackage{pgfpages}
+%\pgfpagesuselayout{2 on 1}[a4paper,border shrink=5mm]
+\usetheme{simple}
+
+\usepackage{lmodern}
+\usepackage[scale=2]{ccicons}
+
+\usepackage{animate}
+
+%quatation
+\usepackage[style=british]{csquotes}
+\def\signed #1{{\leavevmode\unskip\nobreak\hfil\penalty50\hskip1em
+			\hbox{}\nobreak\hfill #1%
+			\parfillskip=0pt \finalhyphendemerits=0 \endgraf}}
+	
+	\newsavebox\mybox
+	\newenvironment{aquote}[1]
+	{\savebox\mybox{#1}\begin{quote}\openautoquote\hspace*{-.7ex}}
+		{\unskip\closeautoquote\vspace*{1mm}\signed{\usebox\mybox}\end{quote}}
+	
+%change font size
+\newcommand\Fontvi{\fontsize{6}{7.2}\selectfont}
+
+%change block params
+
+	
+% TODO: 
+%   position adjustement
+%   change colours
+%       
+
+% Watermark background (simple theme)
+
+%\setwatermark{\includegraphics[height=8cm]{./img/Heckert_GNU_white.png}}
+\setwatermark{\includegraphics[height=8cm]{./img/arctic_transparent.png}}
+
+\title{Laptev Sea and East Siberian Sea landfast ice: Mechanism of formation and variability of extent}
+\date{\today}
+\author{Valeria Selyuzhenok}
+\institute{Jacobs University Bremen}
+
+
+\begin{document}
+\maketitle
+\logo[left]{\includegraphics[height=0.5cm]{./img/logos.pdf}}
+\begin{flushright}
+		\textsf {Approved Dissertation Committee}\\[0.4cm]	
+		\textsf{Prof. Dr. R"udiger Gerdes}\\ 
+		\textsf{Prof. Dr. Joachim Vogt}\\ 	
+		\textsf{Dr. Thomas Krumpen}\\ 
+\end{flushright}
+	
+%slide 2
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}{Outline}
+	\begin{columns}
+	  \column{.8\textwidth}
+		\begin{block}{I. Introduction}
+		\end{block}
+		\begin{block}{II. Variability of landfast ice extent}
+		\end{block}
+		\begin{block}{III. Mechanism of landfast ice development}
+		\end{block}
+		\begin{block}{IV. Summary and outlook} 
+		\end{block}
+	\end{columns}
+\end{frame}
+
+%slide 3
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{I. Arctic sea ice}
+	\begin{center}
+	\includegraphics[width=0.8\textwidth]{./img/arctic_min_max_map.png}
+	\end{center}
+\end{frame}
+	
+%slide 4
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{I. The importance of Arctic sea ice}
+	\begin{itemize}
+		\item Sea ice regulates the climate (reflects about 80$\%$ of solar radiation)
+		\item Important component of ecological system (provided habitat and hunting platform)
+		\item Impacts human activity (navigation, exploration, indigenous people activity)
+	\end{itemize}
+\end{frame}
+
+%slide 5
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{I. Forms of sea ice}
+	\begin{itemize}
+		%\item Based on age - first-year and multi-year ice
+		\item Based on stage of development - frazil ice, pancake ice, first-year, multi-year ice
+		\item Based on deformation - level ice, deformed ice 
+		\item Based on ability to move - pack ice and landfast ice
+	\end{itemize}
+\end{frame}
+
+%%slide 5
+%\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+%\begin{frame}[fragile]{I. Forms of sea ice}
+%	\begin{columns}
+%		\column{0.5\textwidth}
+%		%\item Based on age - first-year and multi-year ice
+%		\item Based on stage of development - frazil ice, pancake ice, first-year, multi-year ice
+%		\item Based on deformation - level ice, deformed ice 
+%		\item Based on ability to move - pack ice and landfast ice
+%	\end{columns}
+%\end{frame}
+
+
+%slide 6
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{I. Arctic sea ice}
+	\begin{columns}
+		\column{0.5\textwidth}
+		\includegraphics[height=7cm]{./img/ArcticSI_crop.pdf}\\
+		May, 5, 2015\\~\\
+		\Fontvi
+		based on Operational Sea Ice Charts,\\
+		Arctic and Antarctic Research Institute, Russia (\textbf{AARI Charts})
+		\column{0.1\textwidth}
+		\column{0.35\textwidth}
+%		\begin{block}{5 May 2015}
+%			based on Operational Sea Ice Charts, Arctic and Antarctic Research Institute, Russia (AARI Charts)
+%		\end{block}
+	\end{columns}
+	
+\end{frame}
+
+%slide 7
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{I. Arctic landfast ice}
+	\begin{columns}
+		\column{0.5\textwidth}
+		\includegraphics[height=7cm]{./img/Arctic_crop.pdf}\\
+		May, 5, 2015\\~\\
+		\Fontvi
+		based on AARI Charts
+		\column{0.1\textwidth}
+		\column{0.35\textwidth}
+		\centering
+		\begin{block}{\centering}
+			\centering
+			$\sim$ 13$\%$ of total sea ice extent
+		\end{block}
+		\begin{itemize}
+			\item affects state of the Arctic Ocean \Fontvi[Maqueda et al. 2004, Itkin et al. 2015] \\~\\ 
+			\item protects coasts from erosion  \Fontvi[Rachold et al. 2000, Eicken et al. 2005] \\~\\ 
+			\item helps to maintain submarine permafrost \Fontvi[Rachold et al. 2000] \\~\\
+			\item affects human activity \Fontvi[Johannessen et al. 2005, Hughes et al. 2011, Weintrit 2013] 
+		\end{itemize}
+	\end{columns}
+\end{frame}
+
+%slide 8
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{I. Landfast ice definition}
+	\begin{aquote}{World Meteorological Organization (WMO)}
+		Sea ice which \textbf{forms and remains fast along the coast}, where it is attached to the shore, to an ice wall, to an ice front, between shoals or grounded icebergs.
+	\end{aquote}
+	\
+	\begin{columns}
+		
+		\column{0.4\textwidth}
+		\begin{block}{\centering Operational sea ice mapping}
+			\centering expert's opinion (2-7 days)
+		\end{block}
+		
+		\column{0.4\textwidth}
+		\begin{block}{\centering Semi-/automatic mapping}
+			\centering strict definition \\
+			(eg. 25 days[Mahoney et al.])
+		\end{block}
+		
+	\end{columns}
+\end{frame}
+
+%%slide 9
+%\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+%\begin{frame}[fragile]{I. Arctic landfast ice}
+%	\begin{flushright}
+%	Cros-section of landfast ice
+%	\end{flushright}
+%	\begin{center}
+%		\includegraphics[height=4.5cm]{./img/FI_section.png}\\
+%	\end{center}
+%		
+%		May, 5, 2015\\~\\
+%		\Fontvi
+%		
+%		from Operational Sea Ice Charts, \hfill Petrich et al. (2012), Eicken et al. (2005)\\
+%		Arctic and Antarctic Research Institute, Russia (\textbf{AARI Charts})
+%		
+%%	\begin{flushright}
+%%		\Fontvi
+%%		Petrich et al. (2012), Eicken et al. (2005)
+%%	\end{flushright}
+%\end{frame}
+
+%slide 9
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{I. Factors controlling landfast ice extent}
+	\begin{center}
+		\includegraphics[height=7cm]{./img/FI_knowledge.png}\\
+	\end{center}
+	May, 5, 2015\\~\\
+	\Fontvi
+	based on AARI Charts
+\end{frame}
+
+%%slide 11
+%\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+%\begin{frame}[fragile]{I. Changes in Arctic Sea ice}
+%	\begin{columns}
+%		\column{0.45\textwidth}
+%		\includegraphics[height=5cm]{./img/Extent_trend.pdf}\\
+%			\begin{center}
+%			Monthly average total extent\\
+%			\end{center}
+%			\Fontvi
+%			Meier et al.(2014)
+%		\column{0.1\textwidth}
+%		\column{0.4\textwidth}
+%		\begin{itemize}
+%			\item decrease in sea ice extent\\~\\
+%			\item thinning of sea ice\\~\\
+%			\item higher domination of younger ice types\\~\\
+%		\end{itemize}
+%
+%	\end{columns}
+%\end{frame}
+
+%slide 10
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{I. Changes in Arctic landfast ice}
+	\begin{columns}
+		\column{0.45\textwidth}
+		\includegraphics[height=3.5cm]{./img/Extent_timeseries.png}\\
+		\column{0.1\textwidth}
+		\column{0.4\textwidth}
+			\begin{itemize}
+				\item decrease in extent\\~\\
+				\item shorter landfast ice season
+				%\item higher domination of younger ice types\\~\\
+			\end{itemize}
+	\end{columns}
+Arctic winter landfast ice extent \\~\\
+\Fontvi
+%\left
+[Yu et al.2014]
+\end{frame}
+
+%slide 11
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{I.Objectives}
+	
+		
+	Objective 1 -  Annual variability
+		\begin{itemize}
+			\item To describe the \textbf{annual fast ice cycle} and 
+		reveal the \textbf{mechanisms driving the seasonal development} of fast ice.\\~\\
+		\end{itemize}
+	Objective 2 - Interannual variability
+		\begin{itemize}
+			\item To evaluate \textbf{changes} in fast ice cover \textbf{on interannual scales} and 
+		link them to climate processes.
+		%\item higher domination of younger ice types\\~\\
+		\end{itemize}
+
+\end{frame}
+
+%slide 12
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{II. Regions of interest}
+	
+	\begin{columns}
+		\column{0.45\textwidth}
+			\begin{center}
+				Laptev Sea (LS)
+				\includegraphics[height=5cm]{./img/LaptevBath.png}
+			\end{center}
+		\column{0.1\textwidth}
+		\column{0.45\textwidth}
+			\begin{center}
+				East Siberian Sea (ESS)
+				\includegraphics[height=5cm]{./img/ESSBath.pdf}
+			\end{center}	
+			\begin{flushright}
+				\Fontvi
+				Selyuzhenok et al.(2015)
+			\end{flushright}
+	\end{columns}
+\end{frame}
+
+%slide 12
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{II. Annual landfast ice cycle, 2000-2001 }
+	\begin{columns}
+		\column{0.45\textwidth}
+		\animategraphics[loop,autoplay,width=\linewidth]{3}{C:/lera_defense/git/defense/laptev/m-}{2}{41}
+		\column{0.45\textwidth}
+		\animategraphics[loop,autoplay,width=\linewidth]{3}{C:/lera_defense/git/defense/ESS/m-}{0}{39}
+	\end{columns}
+\end{frame}
+
+%slide 13
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{II. Mean annual landfast ice cycle}
+	\begin{columns}
+		\column{0.45\textwidth}
+			\includegraphics[height=6cm]{./img/Mean_SeasonalCycle_ESSvsSELS.pdf}\\
+		\column{0.2\textwidth}
+		\column{0.35\textwidth}
+			\begin{center}
+				\textbf{Interannual variability}\\~\\
+				\textbf{Laptev Sea:}
+			\end{center}
+				\begin{itemize}
+					\item high in November-February
+					\item low throughout the rest of season
+					\item the lowest in winter
+			\end{itemize}
+			
+			\begin{center}
+				\textbf{East Siberian Sea:}
+				\begin{itemize}
+					\item the highest  in winter
+				\end{itemize}
+			\end{center}
+	\end{columns}
+	
+%	\begin{block}{\centering}
+%		\begin{center}
+%			ESS and LS landfast ice extents are controlled by different mechanisms
+%		\end{center}
+%	\end{block}
+\end{frame}
+
+%slide 14
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{II.Key events of annual cycle}
+	\begin{columns}
+		\column{0.60\textwidth}
+		\includegraphics[width=1.0\textwidth]{./img/Key_events_LS0.pdf}\\~\\
+	A typical annual landfast ice cycle for the Laptev Sea
+		\Fontvi
+		[Selyuzhenok et al. 2015]
+		\column{0.40\textwidth}
+			\begin{center}
+				\textbf{Laptev Sea,1999-2013 }\\~\\
+				%\textbf{1999-2013}\\~\\
+				Time series of Key events  1-5
+			\end{center}
+			~\\
+			\begin{center}
+				\textbf{East Siberian Sea, 1999-2015}\\~\\
+				%\textbf{1999-2015}\\~\\
+				Time series of Key events  1,5\\~\\ and Key events 2,3 for some seasons
+			\end{center}
+		\end{columns}
+\end{frame}
+
+%%COMMENTEDslide 15
+%\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+%\begin{frame}[fragile]{II. Key events of annual cycle}
+%	\begin{columns}
+%		\column{0.60\textwidth}
+%		\includegraphics[width=1.0\textwidth]{./img/Key_events_LS.pdf}\\~\\
+%		A typical annual landfast ice cycle for the Laptev Sea
+%			\Fontvi
+%			[Selyuzhenok et al. 2015]
+%		\column{0.40\textwidth}
+%		\begin{enumerate}
+%			\item Identified \textbf{Key events} and \textbf{Periods} for seasons \textbf{1999-2015}\\~\\
+%			\item Onset of \textbf{Key events} and duration of \textbf{Periods} compared to:
+%			\begin{itemize}
+%				\item onset of freezeup melt\\~\\
+%				\item accumulated degree days \\~\\
+%				\item wind speed and direction\\~\\
+%				\item Lena River breakup\\~\\
+%			\end{itemize}
+%		\end{enumerate}
+%	\end{columns}
+%\end{frame}
+
+%slide 15
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{II.Beginning of landfast ice season}
+	\begin{columns}
+		\column{0.50\textwidth}
+		\includegraphics[width=1\textwidth]{./img/Beginning_frzp_LS.pdf}
+		\begin{block}{\centering}
+			\centering
+				\textbf{ - 1.7 day/year (p \textless 0.01)}
+		\end{block}
+		\column{0.50\textwidth}
+		\includegraphics[width=1\textwidth]{./img/Beginning_frzp_ESS.pdf}
+	\end{columns}
+\end{frame}
+
+
+%%slide 17
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{II.Duration of breakup: Laptev Sea}
+	\begin{columns}
+		\column{0.50\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{./img/Key_events_LS0.pdf}
+		\includegraphics[width=0.8\textwidth]{./img/7_62_fr_av_clbr.pdf}
+		\column{0.50\textwidth}
+		\centering Duration of breakup
+		\includegraphics[width=1\textwidth]{./img/Breakup.pdf}
+		\begin{itemize}
+		\item fast ice needs less time to breakup
+		\item more time between melt onset and beginning of breakup --> shorter period of breakup
+		\end{itemize}
+	\end{columns}
+\end{frame}
+
+
+%%slide 17
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{II.Winter landfast ice extent}
+	\begin{columns}
+		\column{0.70\textwidth}
+		\includegraphics[width=1\textwidth]{./img/WinterArea_FebMay.pdf}
+		\column{0.50\textwidth}
+		\begin{itemize}
+			\item no statistically significant changes in winter areal extent
+		\end{itemize}
+	\end{columns}
+\end{frame}
+
+%%slide 18
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{II. Annual variability and interannual changes}
+\begin{columns}
+	\column{0.50\textwidth}
+	\centering
+	\textbf{Laptev Sea}\\~\\
+		\begin{itemize}
+			\item high variation during fall development\\~\\
+			\item later formation\\~\\
+			\item shorter period of breakup\\~\\
+			\item shorter fast ice season (by 2.8 days/decade)\\~\\
+			\item no changes in winter extent\\~\\
+		\end{itemize}
+	
+	\column{0.50\textwidth}
+		\centering
+	\textbf{East Siberian Sea}\\~\\
+	\begin{itemize}
+		\item high variability of winter extent\\~\\
+		\item shorter fast ice season (by 1.5 day/year) 
+	\end{itemize}
+\end{columns}
+\end{frame}
+
+%%slide 19
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{II. Annual variability and interannual changes}
+\begin{columns}
+	\column{0.50\textwidth}
+	\centering
+	\textbf{Laptev Sea}\\~\\
+	\begin{itemize}
+		\item \textbf{high variation during fall development}\\~\\
+		\item later formation\\~\\
+		\item shorter period of breakup\\~\\
+		\item shorter fast ice season (by 2.8 days/decade)\\~\\
+		\item \textbf{no changes in winter extent}\\~\\
+	\end{itemize}
+	
+	\column{0.50\textwidth}
+	\centering
+	\textbf{East Siberian Sea}\\~\\
+	\begin{itemize}
+		\item \textbf{high variability of winter extent}\\~\\
+		\item shorter fast ice season (by 1.5 day/year) 
+	\end{itemize}
+\end{columns}
+\end{frame}
+
+%%slide 20
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{III.Laptev Sea : comparison of landfast ice information}
+\begin{columns}
+	\column{0.70\textwidth}
+	\includegraphics[width=1\textwidth]{./img/SAR_AARI.pdf}
+	\column{0.50\textwidth}
+	\begin{itemize}
+		\item fast ice mapped by two experts 
+		\item high deviations during development in fall
+	\end{itemize}
+\end{columns}
+\end{frame}
+
+%%slide 21
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{III.Laptev Sea : Case study of winter 2008/9 and 2009/10}
+\begin{columns}
+	\column{0.70\textwidth}
+	\includegraphics[width=1\textwidth]{./img/casestudy.pdf}
+	\column{0.50\textwidth}
+	\begin{itemize}
+		\item SAR image every 2-14 days
+		%\item fall fast ice extent is unambiguous  
+	\end{itemize}
+\end{columns}
+\end{frame}
+
+%%slide 22
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{III.Tracked sea ice features}
+\begin{columns}
+	\column{0.80\textwidth}
+		\begin{center}
+		\includegraphics[width=1\textwidth]{./img/trackpoints.pdf}
+		\end{center}
+	\column{0.30\textwidth}
+	\centering
+	fast ice \\= \\ drift speed \textless 0 cm/s
+\end{columns}
+\end{frame}
+
+%%slide 23
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{III. Patterns of drift}
+	\begin{center}
+			\includegraphics[width=0.7\textwidth]{./img/groups_graph.pdf}\\~\\
+			\includegraphics[width=0.7\textwidth]{./img/groups_depth.pdf}
+	\end{center}
+\end{frame}
+
+%%slide 25
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{III. Final location of features}
+\begin{center}
+	\includegraphics[width=0.9\textwidth]{./img/groups_map.pdf}
+\begin{itemize}
+\item relatively thin ice becomes grounded over the shoals (red circles)\\
+\item it serves as stabilizing points for surrounding sea ice
+\item low variations in winter extent predefined by the bathymetry
+\end{itemize}
+\end{center}
+\end{frame}
+
+%%slide 25
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{III.Deep sea ice ridges}
+\begin{columns}
+	\column{0.40\textwidth}
+		\includegraphics[width=0.9\textwidth]{./img/Rgrth_freqency.pdf}
+	\column{0.60\textwidth}
+		\includegraphics[width=0.9\textwidth]{./img/EM_profile.pdf}
+	\end{columns}\\~\\
+\begin{itemize}
+	\item variations in winter fast ice edge is likely controlled by grounding of deep ice ridges
+\end{itemize}
+\end{frame}
+
+%%%slide 25
+%\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+%\begin{frame}[fragile]{III.Deep sea ice ridges}
+%\begin{center}
+%	\includegraphics[width=0.9\textwidth]{./img/groups_map.pdf}
+%	\begin{itemize}
+%		\item relatively thin ice becomes grounded over the shoals (red circles)\\
+%		\item it serves as stabilizing points for surrounding sea ice
+%		\item low variations in winter extent predefined by the bathymetry
+%	\end{itemize}
+%\end{center}
+%\end{frame}
+
+\end{document}

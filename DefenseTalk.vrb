@@ -1,0 +1,11 @@
+\frametitle{II.Beginning of landfast ice season}
+\begin{columns}
+		\column{0.50\textwidth}
+		\includegraphics[width=1\textwidth]{./img/Beginning_frzp_LS.pdf}
+		\begin{block}{\centering}
+			\centering
+%				\textbf{ - 1.7 day/year (p \textless 0.01)}
+		\end{block}
+		\column{0.50\textwidth}
+		\includegraphics[width=1\textwidth]{./img/Beginning_frzp_ESS.pdf}
+	\end{columns}

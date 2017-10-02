@@ -1,0 +1,10 @@
+\frametitle{III.Deep sea ice ridges}
+\begin{columns}
+	\column{0.40\textwidth}
+		\includegraphics[width=0.9\textwidth]{./img/Rgrth_freqency.pdf}
+	\column{0.60\textwidth}
+		\includegraphics[width=0.9\textwidth]{./img/EM_profile.pdf}
+	\end{columns}\\~\\
+\begin{itemize}
+	\item variations in winter fast ice edge is likely controlled by grounding of deep ice ridges
+\end{itemize}
