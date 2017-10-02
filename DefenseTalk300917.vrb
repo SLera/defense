@@ -1,10 +1,24 @@
-\frametitle{III.Deep sea ice ridges}
+\frametitle{III.East Siberian Sea fast ice modes}
+\begin{center}
 \begin{columns}
-	\column{0.40\textwidth}
-		\includegraphics[width=0.9\textwidth]{./img/Rgrth_freqency.pdf}
-	\column{0.60\textwidth}
-		\includegraphics[width=0.9\textwidth]{./img/EM_profile.pdf}
-	\end{columns}\\~\\
-\begin{itemize}
-	\item variations in winter fast ice edge is likely controlled by grounding of deep ice ridges
-\end{itemize}
+	\column{0.70\textwidth}
+	\centering
+	February-May AO and fast ice modes
+	\includegraphics[width=1\textwidth]{./img/AO.pdf}\\~\\
+	\begin{block}{Hypothesis}
+		Sea ice import during AO+ leads to formation thick ice ridges, which become grounded and stabilize fast ice in L-mode.
+	\end{block}
+	\column{0.3\textwidth}
+	Negative AO
+	\includegraphics[width=0.7\textwidth]{./img/HighAO_Rigor.png}\\~\\
+	Positive AO
+	\includegraphics[width=0.7\textwidth]{./img/LowAO_Rigor.png}
+\end{columns}
+
+%\begin{itemize}
+%	\item import of thick ice/increased deformation during +AO periods
+%	\item thick ridges become grounded over deeper water
+%	\item grounded ridges stabilize fast ice in L-mode
+%\end{itemize}
+
+\end{center}
