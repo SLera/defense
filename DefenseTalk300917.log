@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.29)  3 OCT 2017 16:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.29)  3 OCT 2017 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1712,49 +1712,73 @@ Package pdftex.def Info: ./img/Key_events_LS0.pdf used on input line 4.
 
 
 (./DefenseTalk300917.vrb
-<./img/KeyEvents_TS.pdf, id=2736, 253.47884pt x 378.83224pt>
-File: ./img/KeyEvents_TS.pdf Graphic file (type pdf)
+<./img/Beginning_frzp_LS.pdf, id=2736, 398.48563pt x 333.06308pt>
+File: ./img/Beginning_frzp_LS.pdf Graphic file (type pdf)
 
-<use ./img/KeyEvents_TS.pdf>
-Package pdftex.def Info: ./img/KeyEvents_TS.pdf used on input line 4.
-(pdftex.def)             Requested size: 122.91335pt x 183.69873pt.
+<use ./img/Beginning_frzp_LS.pdf>
+Package pdftex.def Info: ./img/Beginning_frzp_LS.pdf used on input line 4.
+(pdftex.def)             Requested size: 153.64403pt x 128.41518pt.
+LaTeX Font Info:    Try loading font information for OML+lmss on input line 7.
+LaTeX Font Info:    No file OMLlmss.fd. on input line 7.
+
+
+LaTeX Font Warning: Font shape `OML/lmss/m/n' undefined
+(Font)              using `OML/cmm/m/it' instead
+(Font)              for symbol `textless' on input line 7.
+
 ) [16
 
- <./img/KeyEvents_TS.pdf>]
+ <./img/Beginning_frzp_LS.pdf>]
 \openout4 = `DefenseTalk300917.vrb'.
 
+ (./DefenseTalk300917.vrb
+<./img/Rgrth_LS.pdf, id=2785, 407.42528pt x 333.06308pt>
+File: ./img/Rgrth_LS.pdf Graphic file (type pdf)
 
-(./DefenseTalk300917.vrb
-File: ./img/Key_events_LS0.pdf Graphic file (type pdf)
- <use ./img/Key_events_LS0.pdf>
-Package pdftex.def Info: ./img/Key_events_LS0.pdf used on input line 5.
-(pdftex.def)             Requested size: 170.71675pt x 104.81662pt.
+<use ./img/Rgrth_LS.pdf>
+Package pdftex.def Info: ./img/Rgrth_LS.pdf used on input line 4.
+(pdftex.def)             Requested size: 153.64403pt x 125.59967pt.
 
-<./img/7_62_fr_av_clbr.pdf, id=3517, 520.87506pt x 440.3442pt>
-File: ./img/7_62_fr_av_clbr.pdf Graphic file (type pdf)
+<./img/RGRTH_FDD.pdf, id=2786, 266.43095pt x 203.17691pt>
+File: ./img/RGRTH_FDD.pdf Graphic file (type pdf)
 
-<use ./img/7_62_fr_av_clbr.pdf>
-Package pdftex.def Info: ./img/7_62_fr_av_clbr.pdf used on input line 6.
-(pdftex.def)             Requested size: 136.57391pt x 115.46104pt.
+<use ./img/RGRTH_FDD.pdf>
+Package pdftex.def Info: ./img/RGRTH_FDD.pdf used on input line 6.
+(pdftex.def)             Requested size: 153.64403pt x 117.16994pt.
+) [17
 
-Overfull \hbox (136.57391pt too wide) in paragraph at lines 3--7
- [][][] 
- []
+ <./img/Rgrth_LS.pdf> <./img/RGRTH_FDD.pdf
 
-<./img/Breakup.pdf, id=3518, 497.93254pt x 364.11462pt>
+pdfTeX warning: /usr/bin/pdflatex (file ./img/RGRTH_FDD.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+>]
+\openout4 = `DefenseTalk300917.vrb'.
+
+ (./DefenseTalk300917.vrb
+<./img/Brkp_LS.pdf, id=2977, 407.42528pt x 333.06308pt>
+File: ./img/Brkp_LS.pdf Graphic file (type pdf)
+
+<use ./img/Brkp_LS.pdf>
+Package pdftex.def Info: ./img/Brkp_LS.pdf used on input line 4.
+(pdftex.def)             Requested size: 153.64403pt x 125.59967pt.
+
+<./img/Breakup.pdf, id=2978, 497.93254pt x 364.11462pt>
 File: ./img/Breakup.pdf Graphic file (type pdf)
 
 <use ./img/Breakup.pdf>
-Package pdftex.def Info: ./img/Breakup.pdf used on input line 9.
-(pdftex.def)             Requested size: 170.71675pt x 124.83629pt.
-) [17
+Package pdftex.def Info: ./img/Breakup.pdf used on input line 6.
+(pdftex.def)             Requested size: 153.64403pt x 112.3521pt.
+) [18
 
- <./img/7_62_fr_av_clbr.pdf> <./img/Breakup.pdf>]
+ <./img/Brkp_LS.pdf> <./img/Breakup.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./img/Breakup.pdf): PDF inclusion: mult
+iple pdfs with page group included in a single page
+>]
 \openout4 = `DefenseTalk300917.vrb'.
 
-
-(./DefenseTalk300917.vrb
-<./img/WinterArea_FebMay.pdf, id=3620, 425.77545pt x 353.98122pt>
+ (./DefenseTalk300917.vrb
+<./img/WinterArea_FebMay.pdf, id=3093, 425.77545pt x 353.98122pt>
 File: ./img/WinterArea_FebMay.pdf Graphic file (type pdf)
 
 <use ./img/WinterArea_FebMay.pdf>
@@ -1765,24 +1789,24 @@ Overfull \hbox (45.5238pt too wide) detected at line 9
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
-) [18
+) [19
 
  <./img/WinterArea_FebMay.pdf>]
 \openout4 = `DefenseTalk300917.vrb'.
 
- (./DefenseTalk300917.vrb) [19
+ (./DefenseTalk300917.vrb) [20
 
 ]
 \openout4 = `DefenseTalk300917.vrb'.
 
 
-(./DefenseTalk300917.vrb) [20
+(./DefenseTalk300917.vrb) [21
 
 ]
 \openout4 = `DefenseTalk300917.vrb'.
 
  (./DefenseTalk300917.vrb
-<./img/SAR_AARI.pdf, id=3685, 264.58786pt x 216.75015pt>
+<./img/SAR_AARI.pdf, id=3158, 264.58786pt x 216.75015pt>
 File: ./img/SAR_AARI.pdf Graphic file (type pdf)
 
 <use ./img/SAR_AARI.pdf>
@@ -1793,13 +1817,13 @@ Overfull \hbox (45.5238pt too wide) detected at line 10
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
-) [21
+) [22
 
  <./img/SAR_AARI.pdf>]
 \openout4 = `DefenseTalk300917.vrb'.
 
  (./DefenseTalk300917.vrb
-<./img/casestudy.pdf, id=3775, 311.23253pt x 234.50925pt>
+<./img/casestudy.pdf, id=3248, 311.23253pt x 234.50925pt>
 File: ./img/casestudy.pdf Graphic file (type pdf)
 
 <use ./img/casestudy.pdf>
@@ -1810,46 +1834,39 @@ Overfull \hbox (45.5238pt too wide) detected at line 10
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
-) [22
+) [23
 
  <./img/casestudy.pdf>]
 \openout4 = `DefenseTalk300917.vrb'.
 
  (./DefenseTalk300917.vrb
-<./img/trackpoints.pdf, id=3864, 483.69685pt x 324.36429pt>
+<./img/trackpoints.pdf, id=3337, 483.69685pt x 324.36429pt>
 File: ./img/trackpoints.pdf Graphic file (type pdf)
 
 <use ./img/trackpoints.pdf>
 Package pdftex.def Info: ./img/trackpoints.pdf used on input line 4.
 (pdftex.def)             Requested size: 307.28807pt x 206.06801pt.
-LaTeX Font Info:    Try loading font information for OML+lmss on input line 5.
-LaTeX Font Info:    No file OMLlmss.fd. on input line 5.
-
-
-LaTeX Font Warning: Font shape `OML/lmss/m/n' undefined
-(Font)              using `OML/cmm/m/it' instead
-(Font)              for symbol `textless' on input line 5.
-
-) [23
+) [24
 
  <./img/trackpoints.pdf>]
 \openout4 = `DefenseTalk300917.vrb'.
 
- (./DefenseTalk300917.vrb
-<./img/groups_graph.pdf, id=4560, 485.75462pt x 171.67377pt>
+
+(./DefenseTalk300917.vrb
+<./img/groups_graph.pdf, id=4032, 485.75462pt x 171.67377pt>
 File: ./img/groups_graph.pdf Graphic file (type pdf)
 
 <use ./img/groups_graph.pdf>
 Package pdftex.def Info: ./img/groups_graph.pdf used on input line 3.
 (pdftex.def)             Requested size: 273.14784pt x 96.5348pt.
 
-<./img/groups_depth.pdf, id=4561, 483.69685pt x 152.27177pt>
+<./img/groups_depth.pdf, id=4033, 483.69685pt x 152.27177pt>
 File: ./img/groups_depth.pdf Graphic file (type pdf)
 
 <use ./img/groups_depth.pdf>
 Package pdftex.def Info: ./img/groups_depth.pdf used on input line 4.
 (pdftex.def)             Requested size: 273.14784pt x 85.98955pt.
-) [24
+) [25
 
  <./img/groups_graph.pdf> <./img/groups_depth.pdf
 
@@ -1859,33 +1876,33 @@ pdfTeX warning: /usr/bin/pdflatex (file ./img/groups_depth.pdf): PDF inclusion:
 \openout4 = `DefenseTalk300917.vrb'.
 
  (./DefenseTalk300917.vrb
-<./img/groups_map.pdf, id=5373, 483.69685pt x 243.78923pt>
+<./img/groups_map.pdf, id=4846, 483.69685pt x 243.78923pt>
 File: ./img/groups_map.pdf Graphic file (type pdf)
 
 <use ./img/groups_map.pdf>
 Package pdftex.def Info: ./img/groups_map.pdf used on input line 3.
 (pdftex.def)             Requested size: 307.28807pt x 154.87883pt.
-) [25
+) [26
 
  <./img/groups_map.pdf>]
 \openout4 = `DefenseTalk300917.vrb'.
 
 
 (./DefenseTalk300917.vrb
-<./img/Rgrth_freqency.pdf, id=5779, 251.80386pt x 293.4116pt>
+<./img/Rgrth_freqency.pdf, id=5251, 251.80386pt x 293.4116pt>
 File: ./img/Rgrth_freqency.pdf Graphic file (type pdf)
 
 <use ./img/Rgrth_freqency.pdf>
 Package pdftex.def Info: ./img/Rgrth_freqency.pdf used on input line 5.
 (pdftex.def)             Requested size: 122.91335pt x 143.22673pt.
 
-<./img/EM_profile.pdf, id=5780, 312.98033pt x 236.27158pt>
+<./img/EM_profile.pdf, id=5252, 312.98033pt x 236.27158pt>
 File: ./img/EM_profile.pdf Graphic file (type pdf)
 
 <use ./img/EM_profile.pdf>
 Package pdftex.def Info: ./img/EM_profile.pdf used on input line 7.
 (pdftex.def)             Requested size: 184.37471pt x 139.18991pt.
-) [26
+) [27
 
  <./img/Rgrth_freqency.pdf> <./img/EM_profile.pdf
 
@@ -1895,44 +1912,44 @@ ultiple pdfs with page group included in a single page
 \openout4 = `DefenseTalk300917.vrb'.
 
  (./DefenseTalk300917.vrb
-<./img/ESS_modes.pdf, id=7155, 483.69685pt x 277.84718pt>
+<./img/ESS_modes.pdf, id=6627, 483.69685pt x 277.84718pt>
 File: ./img/ESS_modes.pdf Graphic file (type pdf)
 
 <use ./img/ESS_modes.pdf>
 Package pdftex.def Info: ./img/ESS_modes.pdf used on input line 3.
 (pdftex.def)             Requested size: 307.28807pt x 176.51578pt.
-) [27
+) [28
 
  <./img/ESS_modes.pdf>]
 \openout4 = `DefenseTalk300917.vrb'.
 
  (./DefenseTalk300917.vrb
-<./img/LowAO_Rigor.PNG, id=7405, 194.97844pt x 175.40532pt>
+<./img/LowAO_Rigor.PNG, id=6877, 194.97844pt x 175.40532pt>
 File: ./img/LowAO_Rigor.PNG Graphic file (type png)
 
 <use ./img/LowAO_Rigor.PNG>
 Package pdftex.def Info: ./img/LowAO_Rigor.PNG used on input line 5.
 (pdftex.def)             Requested size: 153.64403pt x 138.22607pt.
 
-<./img/HighAO_Rigor.PNG, id=7406, 193.47281pt x 172.39406pt>
+<./img/HighAO_Rigor.PNG, id=6878, 193.47281pt x 172.39406pt>
 File: ./img/HighAO_Rigor.PNG Graphic file (type png)
 
 <use ./img/HighAO_Rigor.PNG>
 Package pdftex.def Info: ./img/HighAO_Rigor.PNG used on input line 8.
 (pdftex.def)             Requested size: 153.64403pt x 136.9053pt.
-) [28
+) [29
 
  <./img/LowAO_Rigor.PNG> <./img/HighAO_Rigor.PNG>]
 \openout4 = `DefenseTalk300917.vrb'.
 
  (./DefenseTalk300917.vrb
-<./img/AO.pdf, id=7414, 485.4743pt x 232.20659pt>
+<./img/AO.pdf, id=6886, 485.4743pt x 232.20659pt>
 File: ./img/AO.pdf Graphic file (type pdf)
  <use ./img/AO.pdf>
 Package pdftex.def Info: ./img/AO.pdf used on input line 7.
 (pdftex.def)             Requested size: 239.00241pt x 114.31723pt.
 
-</home/valeria/Jacobs/Defense/defense/img/HighAO_Rigor.PNG, id=7415, 193.47281p
+</home/valeria/Jacobs/Defense/defense/img/HighAO_Rigor.PNG, id=6887, 193.47281p
 t x 172.39406pt>
 File: /home/valeria/Jacobs/Defense/defense/img/HighAO_Rigor.PNG Graphic file (t
 ype png)
@@ -1942,7 +1959,7 @@ Package pdftex.def Info: /home/valeria/Jacobs/Defense/defense/img/HighAO_Rigor.
 PNG used on input line 14.
 (pdftex.def)             Requested size: 71.70145pt x 63.89001pt.
 
-</home/valeria/Jacobs/Defense/defense/img/LowAO_Rigor.PNG, id=7416, 194.97844pt
+</home/valeria/Jacobs/Defense/defense/img/LowAO_Rigor.PNG, id=6888, 194.97844pt
  x 175.40532pt>
 File: /home/valeria/Jacobs/Defense/defense/img/LowAO_Rigor.PNG Graphic file (ty
 pe png)
@@ -1950,12 +1967,12 @@ pe png)
 Package pdftex.def Info: /home/valeria/Jacobs/Defense/defense/img/LowAO_Rigor.P
 NG used on input line 17.
 (pdftex.def)             Requested size: 71.70145pt x 64.50282pt.
-) [29
+) [30
 
  <./img/AO.pdf> </home/valeria/Jacobs/Defense/defense/img/HighAO_Rigor.PNG> </h
 ome/valeria/Jacobs/Defense/defense/img/LowAO_Rigor.PNG>]
-Package atenddvi Info: Last page = 30.
- [30
+Package atenddvi Info: Last page = 31.
+ [31
 
 ]
 \tf@nav=\write6
@@ -1967,25 +1984,25 @@ Package atenddvi Info: Last page = 30.
 \tf@snm=\write8
 \openout8 = `DefenseTalk300917.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 636.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 636.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 676.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 676.
 
 (./DefenseTalk300917.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 636.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 636.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 676.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 676.
 Package rerunfilecheck Info: File `DefenseTalk300917.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 636.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 676.
  ) 
 Here is how much of TeX's memory you used:
- 32439 strings out of 493029
- 663148 string characters out of 6136234
- 750472 words of memory out of 5000000
- 35159 multiletter control sequences out of 15000+600000
+ 32455 strings out of 493029
+ 663423 string characters out of 6136234
+ 750637 words of memory out of 5000000
+ 35169 multiletter control sequences out of 15000+600000
  43490 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,15n,83p,10399b,945s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1995,10 +2012,10 @@ c/dvips/lm/lm-rm.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 xmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lms
 sbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/symbols/msam5.pfb>
-Output written on DefenseTalk300917.pdf (30 pages, 34167612 bytes).
+Output written on DefenseTalk300917.pdf (31 pages, 33654128 bytes).
 PDF statistics:
- 7566 PDF objects out of 8907 (max. 8388607)
- 4462 compressed objects within 45 object streams
- 61 named destinations out of 1000 (max. 500000)
- 1712 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 7039 PDF objects out of 7423 (max. 8388607)
+ 4062 compressed objects within 41 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 1722 words of extra memory for PDF output out of 10000 (max. 10000000)
 
