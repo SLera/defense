@@ -10,9 +10,11 @@
 	\end{block}
 	\column{0.3\textwidth}
 	Negative AO
-	\includegraphics[width=0.7\textwidth]{./img/HighAO_Rigor.png}\\~\\
+	%\includegraphics[width=0.7\textwidth]{./img/HighAO_Rigor.png}\\~\\
+	\includegraphics[width=0.7\textwidth]{/home/valeria/Jacobs/Defense/defense/img/HighAO_Rigor.PNG}\\~\\
 	Positive AO
-	\includegraphics[width=0.7\textwidth]{./img/LowAO_Rigor.png}
+	%\includegraphics[width=0.7\textwidth]{./img/LowAO_Rigor.png}
+	\includegraphics[width=0.7\textwidth]{/home/valeria/Jacobs/Defense/defense/img/LowAO_Rigor.PNG}
 \end{columns}
 
 %\begin{itemize}
