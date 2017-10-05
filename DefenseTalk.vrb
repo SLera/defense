@@ -6,13 +6,13 @@
 	February-May AO and fast ice modes
 	\includegraphics[width=1\textwidth]{./img/AO.pdf}\\~\\
 	\begin{block}{Hypothesis}
-		Sea ice import during AO+ leads to formation thick ice ridges, which become grounded and stabilize fast ice in L-mode.
+		Sea ice import during AO - leads to formation thick ice ridges, which become grounded and stabilize fast ice in L-mode.
 	\end{block}
 	\column{0.3\textwidth}
-	Negative AO
+	Positive AO
 	%\includegraphics[width=0.7\textwidth]{./img/HighAO_Rigor.png}\\~\\
 	\includegraphics[width=0.7\textwidth]{/home/valeria/Jacobs/Defense/defense/img/HighAO_Rigor.PNG}\\~\\
-	Positive AO
+	Negative AO
 	%\includegraphics[width=0.7\textwidth]{./img/LowAO_Rigor.png}
 	\includegraphics[width=0.7\textwidth]{/home/valeria/Jacobs/Defense/defense/img/LowAO_Rigor.PNG}
 \end{columns}
