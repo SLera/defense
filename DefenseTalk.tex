@@ -24,14 +24,6 @@
 %change font size
 \newcommand\Fontvi{\fontsize{6}{7.2}\selectfont}
 
-%change block params
-
-	
-% TODO: 
-%   position adjustement
-%   change colours
-%       
-
 % Watermark background (simple theme)
 
 %\setwatermark{\includegraphics[height=8cm]{./img/Heckert_GNU_white.png}}
@@ -40,7 +32,7 @@
 \title{Laptev Sea and East Siberian Sea landfast ice: Mechanism of formation and variability of extent}
 \date{\today}
 \author{Valeria Selyuzhenok\\~\\\textsf {Approved Dissertation Committee}\\
-	\textsf{Prof. Dr. Rudiger Gerdes}\\ 
+	\textsf{Prof. Dr. Ruediger Gerdes}\\ 
 	\textsf{Prof. Dr. Joachim Vogt}\\ 	
 	\textsf{Dr. Thomas Krumpen}\\ }
 \institute{Jacobs University Bremen}
@@ -180,38 +172,46 @@ Itkin et al. 2015
 
 %slide 8
 \setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
-\begin{frame}[fragile]{I. Changes in Arctic fast ice, 1976-2007}
+\begin{frame}[fragile]{I. Changes in Arctic sea ice and fast ice}
 		\begin{columns}
 			\column{0.5\textwidth}
-			Changes in fast ice extent\\
-			
+			\begin{center}
+				\textbf{Sea ice extent, 1979-2013}
+			\end{center}
+
 			\column{0.5\textwidth}
-			Long-term variation of fast ice extent\\ for the Northern Hemisphere\\
+			\begin{center}
+				\textbf{Fast ice extent, 1976-2007}\\
+			\end{center}
 
 		\end{columns}
-	\begin{columns}
-		\column{0.5\textwidth}
 		
-		\includegraphics[width=0.8\textwidth]{./img/yu.pdf}\\\Fontvi
-		(Yu et al.2014)
-		\column{0.5\textwidth}
-	
-		\includegraphics[width=0.8\textwidth]{./img/Extent_timeseries.png}\\
-		\Fontvi
-		(Yu et al.2014)
-	\end{columns}
 	\begin{columns}
-		\column{0.20\textwidth}
-		\column{0.55\textwidth}
-	\begin{block}{\centering}
-	\textbf{overall decrease in extent - 7 $\%$ per decade}\\
+		\column{0.5\textwidth}
+		\includegraphics[width=0.9\textwidth]{./img/SIC_changes.png}\\
+		\Fontvi
+		(Meier et al.2014)		
+		\column{0.5\textwidth}		
+		\includegraphics[width=1.0\textwidth]{./img/yu.pdf}\\\Fontvi
+		(Yu et al.2014)\\
+		
+			
+	\end{columns}
+	
+	\begin{columns}
+		\column{0.50\textwidth}
+			\begin{itemize}
+				\item declining trend thought all month\\~\\
+				\item acceleration over the past decade
+			\end{itemize}
+		\column{0.50\textwidth}
+	\begin{itemize}
+	\item \textbf{overall decrease in extent - 7 $\%$ per decade}\\
 	Laptev Sea - 8.4$\%$ per decade
-	\end{block}
-	\begin{block}{\centering}
-	 \textbf{shorter landfast ice season\\}
+
+	\item \textbf{shorter landfast ice season\\}
 	 Laptev and East Siberian Seas - 2.5 weeks per decade
-	 \end{block}
-	 \column{0.25\textwidth}
+	 \end{itemize}
 	 \end{columns}
 
 \end{frame}
@@ -286,25 +286,28 @@ Itkin et al. 2015
 \begin{frame}[fragile]{II. Mean annual fast ice cycle}
 	\begin{columns}
 		\column{0.45\textwidth}
-			\includegraphics[height=6cm]{./img/Mean_SeasonalCycle_ESSvsSELS.pdf}\\
+			\begin{center}
+				\includegraphics[height=6cm]{./img/Mean_SeasonalCycle_ESSvsSELS.pdf}\\
+			\end{center}
 		\column{0.2\textwidth}
 		\column{0.35\textwidth}
 			\begin{center}
 				\textbf{Interannual variability}\\~\\
-				\textbf{Laptev Sea:}
 			\end{center}
+				\begin{block}{\centering Laptev Sea:}
+							
 				\begin{itemize}
-					\item high in November-February
-					\item low throughout the rest of season
-					\item the lowest in winter
+					\item high in November-February\\~\\
+					\item low in winter
+					%\item the lowest in winter\\~\\
 			\end{itemize}
+			\end{block}
 			
-			\begin{center}
-				\textbf{East Siberian Sea:}
+				\begin{block}{\centering East Siberian Sea:}
 				\begin{itemize}
-					\item the highest  in winter
+					\item high in winter
 				\end{itemize}
-			\end{center}
+			\end{block}
 	\end{columns}
 	
 %	\begin{block}{\centering}
@@ -317,58 +320,117 @@ Itkin et al. 2015
 %slide 14
 \setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
 \begin{frame}[fragile]{II. Key events of annual cycle}
-	\begin{columns}
-		\column{0.60\textwidth}
-		\includegraphics[width=1.0\textwidth]{./img/Key_events_LS0.pdf}\\~\\
-	A typical annual fast ice cycle for the Laptev Sea
-		\Fontvi
-	(Selyuzhenok et al. 2015)
-		\column{0.40\textwidth}
-			\begin{center}
-				\textbf{Laptev Sea,1999-2013 }\\~\\
-				%\textbf{1999-2013}\\~\\
-				Time series of Key events  1-5
-			\end{center}
-			~\\
-			\begin{center}
-				\textbf{East Siberian Sea, 1999-2015}\\~\\
-				%\textbf{1999-2015}\\~\\
-				Time series of Key events  1 and 5\\~\\
-			\end{center}
-		\end{columns}
+	%\begin{columns}
+		%\column{0.60\textwidth}
+		\begin{center}
+				\includegraphics[width=0.9\textwidth]{./img/Key_events_LS0.pdf}\\~\\
+				A typical annual fast ice cycle and Key events for the Laptev Sea
+		\end{center}
+
+%		\Fontvi
+%	(Selyuzhenok et al. 2015)
+%		\column{0.40\textwidth}
+%			\begin{center}
+%				\textbf{Laptev Sea,1999-2013 }\\~\\
+%				%\textbf{1999-2013}\\~\\
+%				Time series of Key events  1-5
+%			\end{center}
+%			~\\
+%			\begin{center}
+%				\textbf{East Siberian Sea, 1999-2015}\\~\\
+%				%\textbf{1999-2015}\\~\\
+%				Time series of Key events  1 and 5\\~\\
+%			\end{center}
+%		\end{columns}
 \end{frame}
 
 %slide 15
 \setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
-\begin{frame}[fragile]{II. Beginning of season}
+\begin{frame}[fragile]{II. Beginning of season: LS}
 	\begin{columns}
 		\column{0.50\textwidth}
-		%Time series of dates
-		\includegraphics[width=0.9\textwidth]{./img/Beginning_frzp_LS.pdf}\\~\\
+			\begin{center}
+			\textbf{Beginning of season and freezeup}
+			\end{center}
 		\column{0.50\textwidth}
-		\begin{itemize}
-			\item{tendency towards later formation \\ 1.7 days/year (p\textless0.01)}\\~\\
-			\item{partly explained by delay in freezeup\\ (r = 0.6)}
-		\end{itemize}
-	\end{columns}
-\end{frame}
-
-%slide 16
-\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
-\begin{frame}[fragile]{II. Rapid development}
-	\begin{columns}
-		\column{0.50\textwidth}
-		\includegraphics[width=0.9\textwidth]{./img/Rgrth_LS.pdf}\\~\\
-		\column{0.50\textwidth}
-		\includegraphics[width=0.9\textwidth]{./img/RGRTH_FDD.pdf}\\~\\
+		\begin{center}
+			\textbf{Wind direction}
+		\end{center}
 	\end{columns}
 	
 	\begin{columns}
 		\column{0.50\textwidth}
-		\begin{itemize}
-			\item{high variability of dates}\\~\\
-			\item{tendency towards later end \\ 0.4 days/year (p=0.07)\\}
-		\end{itemize}
+		\begin{center}	
+		\includegraphics[width=1.0\textwidth]{./img/Beginning_frzp_LS.pdf}\\~\\
+		\end{center}
+
+		\column{0.50\textwidth}
+		\begin{center}
+				\includegraphics[width=0.75\textwidth]{./img/Wind_preformation.pdf}\\~\\
+		\end{center}
+
+	\end{columns}
+	
+		\begin{columns}
+			\column{0.50\textwidth}
+			\begin{itemize}
+				\item{tendency towards later formation \\ 1.7 days/year (p\textless0.01)}\\~\\
+				\item{partly explained by delay in freezeup\\ (r = 0.6)}
+			\end{itemize}
+			\column{0.50\textwidth}
+			\begin{itemize}
+				\item{\textbf{onshore} wind - \textbf{earlier} fast ice formation} \\~\\
+				\item{\textbf{offshore} wind - \textbf{later} fast ice formation}
+			\end{itemize}
+		\end{columns}
+\end{frame}
+
+
+%%slide 15
+%\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+%\begin{frame}[fragile]{II. Beginning of season}
+%
+%		\includegraphics[width=0.9\textwidth]{./img/Wind_preformation.pdf}\\~\\
+%		\begin{itemize}
+%			\item{\textbf{onshore} wind - \textbf{earlier} fast ice formation} \\~\\
+%			\item{\textbf{offshore} wind - \textbf{later} fast ice formation}
+%		\end{itemize}
+
+\end{frame}
+
+%slide 16
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{II. Rapid development: LS}
+	\begin{columns}
+		\column{0.50\textwidth}
+			\begin{center}
+				\textbf{Beginning and end of rapid development}
+			\end{center}
+		\column{0.50\textwidth}
+			\begin{center}
+				\textbf{Duration of rapid development}
+			\end{center}
+	\end{columns}
+	
+	\begin{columns}
+		\column{0.50\textwidth}
+		\begin{center}
+		\includegraphics[width=0.9\textwidth]{./img/Rgrth_LS.pdf}
+		\end{center}
+		\column{0.50\textwidth}
+		\begin{center}
+		\includegraphics[width=0.9\textwidth]{./img/RGRTH_FDD.pdf}
+		\end{center}
+	\end{columns}
+	
+	\begin{columns}
+		\column{0.50\textwidth}
+		\begin{center}
+			\begin{itemize}
+				\item{high variability of dates}\\~\\
+				\item{tendency towards later end \\ 0.4 days/year (p=0.07)\\}
+			\end{itemize}
+		\end{center}
 		\column{0.50\textwidth}
 		\begin{itemize}
 			\item{duration of period depends on\\ accumulated FDD}\\~\\
@@ -379,23 +441,39 @@ Itkin et al. 2015
 
 %slide 17
 \setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
-\begin{frame}[fragile]{II. Breakup}
+\begin{frame}[fragile]{II. Breakup: LS}
+	
+		\begin{columns}
+			\column{0.50\textwidth}
+			\begin{center}
+				\textbf{Beginning breakup and end season}
+			\end{center}
+			\column{0.50\textwidth}
+			\begin{center}
+				\textbf{Duration of breakup}
+			\end{center}
+		\end{columns}
+	
 	\begin{columns}
 		\column{0.50\textwidth}
-		\includegraphics[width=0.9\textwidth]{./img/Brkp_LS.pdf}\\~\\
+			\begin{center}
+				\includegraphics[width=0.9\textwidth]{./img/Brkp_LS.pdf}
+			\end{center}
 		\column{0.50\textwidth}
-		\includegraphics[width=0.9\textwidth]{./img/Breakup.pdf}\\~\\
+			\begin{center}
+				\includegraphics[width=0.9\textwidth]{./img/Breakup.pdf}
+			\end{center}
 	\end{columns}
 	
 	\begin{columns}
 		\column{0.50\textwidth}
 		\begin{itemize}
-			\item{tendency towards earlier end\\ -1.0 days/year (p=0.06)}\\~\\
-			\item{no changes in beginning \\ 0.3 days/year (p=0.63)\\}
+			\item{no changes in beginning \\ 0.3 days/year (p=0.63)\\}~\\
+			\item{tendency towards earlier end\\ -1.0 days/year (p=0.06)}
 		\end{itemize}
 		\column{0.50\textwidth}
 		\begin{itemize}
-			\item{fast ice needs less time to breakup}\\~\\
+			\item{fast ice needs less time to breakup\\}~\\
 			\item{duration of breakup depend on TDD acquired prior beginning of breakup }
 		\end{itemize}
 	\end{columns}
@@ -420,71 +498,120 @@ Itkin et al. 2015
 %\end{frame}
 
 
-%%slide 17
-\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
-\begin{frame}[fragile]{II.Winter landfast ice extent}
-	\begin{columns}
-		\column{0.50\textwidth}
-		\includegraphics[width=1.0\textwidth]{./img/WinterArea_FebMay.pdf}
-		\column{0.50\textwidth}
-		\begin{itemize}
-			\item no statistically significant changes in winter areal extent
-		\end{itemize}
-	\end{columns}
-\end{frame}
+%%%slide 17
+%\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+%\begin{frame}[fragile]{II.Winter landfast ice extent}
+%	\begin{columns}
+%		\column{0.50\textwidth}
+%		\includegraphics[width=1.0\textwidth]{./img/WinterArea_FebMay.pdf}
+%		\column{0.50\textwidth}
+%		\begin{itemize}
+%			\item no statistically significant changes in winter areal extent
+%		\end{itemize}
+%	\end{columns}
+%\end{frame}
 
 %%slide 18
 \setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
-\begin{frame}[fragile]{II. Annual variability and interannual changes}
-\begin{columns}
-	\column{0.50\textwidth}
-	\centering
-	\textbf{Laptev Sea}\\~\\
-		\begin{itemize}
-			\item later formation\\~\\
-			\item high variation during fall development\\~\\
-			\item no changes in winter extent\\~\\
-			\item shorter period of breakup\\~\\
-			\item shorter fast ice season (by 2.8 days/decade)\\~\\
-			
-		\end{itemize}
-	
-	\column{0.50\textwidth}
-		\centering
-	\textbf{East Siberian Sea}\\~\\
-	\begin{itemize}
-		\item high variability of winter extent\\~\\
-		\item no changes in winter extent\\~\\
-		\item shorter fast ice season (by 1.5 day/year) 
-	\end{itemize}
-\end{columns}
+\begin{frame}[fragile]{II. Duration of fast ice season}
+%	\begin{columns}
+%		\column{0.50\textwidth}
+%		\centering
+%%		\includegraphics[width=1\textwidth]{./img/Key_events_LS0.pdf}
+%		\includegraphics[width=0.8\textwidth]{./img/7_62_fr_av_clbr.pdf}
+%		\column{0.50\textwidth}
+%		\centering Duration of breakup
+%		\includegraphics[width=1\textwidth]{./img/Breakup.pdf}
+%		\begin{itemize}
+%		\item fast ice needs less time to breakup
+%		\item more time between melt onset and beginning of breakup --> shorter period of breakup
+%		\end{itemize}
+%	\end{columns}
 \end{frame}
 
-%%slide 19
+
+%slide 19
 \setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
-\begin{frame}[fragile]{II. Annual variability and interannual changes}
-\begin{columns}
-	\column{0.50\textwidth}
-	\centering
-	\textbf{Laptev Sea}\\~\\
-	\begin{itemize}
-		\item later formation\\~\\
-		\item \textbf{high variation during fall development}\\~\\
-		\item \textbf{no changes in winter extent}\\~\\
-		\item shorter period of breakup\\~\\
-		\item shorter fast ice season (by 2.8 days/decade)\\~\\
-	\end{itemize}
-	
-	\column{0.50\textwidth}
-	\centering
-	\textbf{East Siberian Sea}\\~\\
-	\begin{itemize}
-		\item \textbf{high variability of winter extent}\\~\\
-		\item no changes in winter extent\\~\\
-		\item shorter fast ice season (by 1.5 day/year) 
-	\end{itemize}
-\end{columns}
+\begin{frame}[fragile]{II. Mean annual fast ice cycle}
+	\begin{columns}
+		\column{0.45\textwidth}
+		\begin{center}
+			\includegraphics[height=6cm]{./img/Mean_SeasonalCycle_ESSvsSELS.pdf}\\
+		\end{center}
+		\column{0.2\textwidth}
+		\column{0.35\textwidth}
+		\begin{center}
+			\textbf{Interannual variability}\\~\\
+		\end{center}
+		\begin{block}{\centering Laptev Sea:}
+			
+			\begin{itemize}
+				\item high in November-February\\~\\
+				\item low winter
+				%\item the lowest in winter\\~\\
+			\end{itemize}
+		\end{block}
+		
+		\begin{block}{\centering East Siberian Sea:}
+			\begin{itemize}
+				\item high in winter
+			\end{itemize}
+		\end{block}
+	\end{columns}
 \end{frame}
+
+%%%slide 18
+%\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+%\begin{frame}[fragile]{II. Annual variability and interannual changes}
+%\begin{columns}
+%	\column{0.50\textwidth}
+%	\centering
+%	\textbf{Laptev Sea}\\~\\
+%		\begin{itemize}
+%			\item later formation\\~\\
+%			\item high variation during fall development\\~\\
+%			\item no changes in winter extent\\~\\
+%			\item shorter period of breakup\\~\\
+%			\item shorter fast ice season (by 2.8 days/decade)\\~\\
+%			
+%		\end{itemize}
+%	
+%	\column{0.50\textwidth}
+%		\centering
+%	\textbf{East Siberian Sea}\\~\\
+%	\begin{itemize}
+%		\item high variability of winter extent\\~\\
+%		\item no changes in winter extent\\~\\
+%		\item shorter fast ice season (by 1.5 day/year) 
+%	\end{itemize}
+%\end{columns}
+%\end{frame}
+%
+%%%slide 19
+%\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+%\begin{frame}[fragile]{II. Annual variability and interannual changes}
+%\begin{columns}
+%	\column{0.50\textwidth}
+%	\centering
+%	\textbf{Laptev Sea}\\~\\
+%	\begin{itemize}
+%		\item later formation\\~\\
+%		\item \textbf{high variation during fall development}\\~\\
+%		\item \textbf{no changes in winter extent}\\~\\
+%		\item shorter period of breakup\\~\\
+%		\item shorter fast ice season (by 2.8 days/decade)\\~\\
+%	\end{itemize}
+%	
+%	\column{0.50\textwidth}
+%	\centering
+%	\textbf{East Siberian Sea}\\~\\
+%	\begin{itemize}
+%		\item \textbf{high variability of winter extent}\\~\\
+%		\item no changes in winter extent\\~\\
+%		\item shorter fast ice season (by 1.5 day/year) 
+%	\end{itemize}
+%\end{columns}
+%\end{frame}
 
 %%%slide 20
 %\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
@@ -502,53 +629,72 @@ Itkin et al. 2015
 
 %%slide 21
 \setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
-\begin{frame}[fragile]{III.Laptev Sea : Case study of winter 2008/9 and 2009/10}
-\begin{columns}
-	\column{0.70\textwidth}
-	\includegraphics[width=1\textwidth]{./img/casestudy.pdf}
-	\column{0.50\textwidth}
-	\begin{itemize}
-		\item SAR image every 2-14 days
-		%\item fall fast ice extent is unambiguous  
-	\end{itemize}
-\end{columns}
+\begin{frame}[fragile]{III. Laptev Sea : Case study 2008/09 and 2009/10}
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{./img/casestudy.pdf}
+	\end{center}
+	\begin{columns}
+		\column{0.15\textwidth}
+		\column{0.70\textwidth}
+			\begin{itemize}
+				\item Synthetic Aperture Radar (SAR) image every 2-14 days
+				\item spatial resolution 150 m
+			\end{itemize}
+		\column{0.15\textwidth}
+	\end{columns}
 \end{frame}
 
 %%slide 22
 \setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
-\begin{frame}[fragile]{III.Tracked sea ice features}
+
+
+\begin{frame}[fragile]{III. Tracked sea ice features}
 
 		\begin{center}
-		\includegraphics[width=0.8\textwidth]{./img/trackpoints.pdf}\\
+		\includegraphics[width=0.9\textwidth]{./img/trackpoints.pdf}\\
 		\textbf{fast ice = 0 cm/s drift speed}
 		\end{center}
 \end{frame}
 
+
+%%slide 25
+\setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
+\begin{frame}[fragile]{III. Final location of features}
+\begin{center}
+	\includegraphics[width=1.0\textwidth]{./img/groups_map.pdf}
+%\begin{itemize}
+%\item relatively thin ice becomes grounded over the shoals (red circles)\\
+%\item it serves as stabilizing points for surrounding sea ice
+%\item low variations in winter extent predefined by the bathymetry
+%\end{itemize}
+\end{center}
+\end{frame}
+
 %%slide 23
 \setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
-\begin{frame}[fragile]{III. Patterns of drift}
+\begin{frame}[fragile]{III. Water depth vs fast ice formation day}
 	\begin{center}
-			\includegraphics[width=0.8\textwidth]{./img/groups_graph.pdf}\\~\\
-			\includegraphics[width=0.8\textwidth]{./img/groups_depth.pdf}
+		%\includegraphics[width=0.8\textwidth]{./img/groups_graph.pdf}\\~\\
+		\includegraphics[width=1.0\textwidth]{./img/groups_depth.pdf}
 	\end{center}
 \end{frame}
 
 %%slide 25
 \setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
 \begin{frame}[fragile]{III. Final location of features}
-\begin{center}
-	\includegraphics[width=0.9\textwidth]{./img/groups_map.pdf}
-\begin{itemize}
-\item relatively thin ice becomes grounded over the shoals (red circles)\\
-\item it serves as stabilizing points for surrounding sea ice
-\item low variations in winter extent predefined by the bathymetry
-\end{itemize}
-\end{center}
+	\begin{center}
+		\includegraphics[width=1.0\textwidth]{./img/groups_map.pdf}
+		\begin{itemize}
+		\item relatively thin ice becomes grounded over the shoals \\
+		\item it serves as stabilizing points for surrounding sea ice
+		\item low variations in winter extent predefined by the bathymetry
+		\end{itemize}
+	\end{center}
 \end{frame}
 
 %%slide 25
 \setwatermark{\fontsize{125pt}{125pt}\selectfont{}}
-\begin{frame}[fragile]{III. Deep sea ice ridges}
+\begin{frame}[fragile]{III. Fast ice at the end of rapid development}
 \begin{columns}
 	\column{0.40\textwidth}
 	End of Rapid Development
