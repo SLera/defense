@@ -99,13 +99,13 @@ p2, = plt.plot(years_LS, end_rgrth, marker ='o',  markerfacecolor = 'w', color =
 #        color='r',  bbox=props, fontsize=16)
 
 
-plt.yticks (np.arange(40,200,40),fontsize = 14)
+plt.yticks (np.arange(40,210,40),fontsize = 14)
 plt.xticks(np.arange(2000,2017,3),fontsize =14)
 
 plt.ylabel('Day since 1 September', fontsize = 16)
 plt.grid()
 plt.legend(loc=1)
-plt.title('Laptev Sea', color = 'red', fontsize = 18)
+#plt.title('Laptev Sea', color = 'red', fontsize = 18)
 plt.savefig('Rgrth_LS.pdf', pad_inches=0.1, bbox_inches='tight', fortmat = 'PDF', dpi = 300)
 #plt.close('all')
 

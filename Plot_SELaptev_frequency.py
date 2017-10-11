@@ -17,16 +17,16 @@ import matplotlib as mpl
 #INDIR = 'X:\\LaptevFastIceproject\\Scripts\\LaptevSea\\Output\\Monthly_frequency_new\\temp\\'
 #OUTDIR = 'X:\\LaptevFastIceproject\\Scripts\\LaptevSea\Output\\Monthly_frequency_new\\temp\\Figures\\'
 
-INDIR = '/home/lera/AWI/LaptevFastIceproject/Scripts/ESiberian/Output/ESS_1km_lm_Oct_Aug_Seasons/2000'
-OUTDIR = '/home/lera/AWI/defense/ESS/'
+INDIR = '/home/valeria/AWI/HPbckp/LaptevFastIceproject/Scripts/ESiberian/Output/ESS_1km_lm_Oct_Aug_Seasons/2000'
+OUTDIR = '/home/valeria/Jacobs/Defense/defense/ESS/'
 
 
 def create_map(res_file,FILENAME):
     fig = plt.figure(1,frameon=False, dpi=600)
     fig.add_axes([0, 0, 1, 1])
 
-    lats = np.load('/home/lera/AWI/LaptevFastIceproject/Scripts/ESiberian/vars1km/lats1kmEASE_ESS_wgs')
-    lons = np.load('/home/lera/AWI/LaptevFastIceproject/Scripts/ESiberian/vars1km/lons1kmEASE_ESS_wgs')
+    lats = np.load('/home/valeria/AWI/HPbckp/LaptevFastIceproject/Scripts/ESiberian/vars1km/lats1kmEASE_ESS_wgs')
+    lons = np.load('/home/valeria/AWI/HPbckp/LaptevFastIceproject/Scripts/ESiberian/vars1km/lons1kmEASE_ESS_wgs')
 
     #    INDIR_bath = 'D:\\LaptevFastIceproject\\Scripts\\ESiberian\\Bathymetry\\'
     #    bath = np.load(INDIR_bath + 'bath_EASE_maxDepth_ESS')
@@ -45,8 +45,8 @@ def create_map(res_file,FILENAME):
     
     #m.drawcoastlines()
     m.fillcontinents( color='0.8', lake_color='0.8' ) #color='#FFEC8B')
-    m.drawmeridians(np.arange(110.,150.,10.),labels=[1, 0, 0, 0])
-    m.drawparallels(np.arange(70.,80.,5.),labels=[1, 0, 0, 0])
+#    m.drawmeridians(np.arange(110.,150.,10.),labels=[1, 0, 0, 0])
+#    m.drawparallels(np.arange(70.,80.,5.),labels=[1, 0, 0, 0])
     #m.drawmapboundary(fill_color='#6587ad', linewidth=0.0)
     
     #colorbar settings
@@ -60,7 +60,7 @@ def create_map(res_file,FILENAME):
     img = m.imshow(fast,cmap=cmap, norm=norm)
     
     #cbar = plt.colorbar(img, cmap=cmap, norm=norm, boundaries=bounds,ticks=np.linspace(0,100,11))
-    plt.title( FILENAME[-11:-7] + "." + FILENAME[-7:-5] + "." + FILENAME[-5:-3])
+    plt.title( FILENAME[-11:-7] + "." + FILENAME[-7:-5] + "." + FILENAME[-5:-3], fontsize = 20)
     #cbar.set_ticklabels(range(0,110,10))
     #plt.show()    
     plt.savefig(res_file+'.pdf', pad_inches=0.0, bbox_inches='tight')
