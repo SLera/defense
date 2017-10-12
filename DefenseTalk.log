@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.29)  11 OCT 2017 18:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.29)  12 OCT 2017 13:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1826,19 +1826,19 @@ Package pdftex.def Info: ./img/trackpoints.pdf used on input line 4.
 \openout4 = `DefenseTalk.vrb'.
 
  (./DefenseTalk.vrb
-<./img/groups_map.pdf, id=5182, 483.69685pt x 243.78923pt>
+<./img/groups_map.pdf, id=5182, 546.85837pt x 237.48628pt>
 File: ./img/groups_map.pdf Graphic file (type pdf)
 
 <use ./img/groups_map.pdf>
 Package pdftex.def Info: ./img/groups_map.pdf used on input line 3.
-(pdftex.def)             Requested size: 341.43352pt x 172.08717pt.
+(pdftex.def)             Requested size: 341.43352pt x 148.27635pt.
 ) [23
 
  <./img/groups_map.pdf>]
 \openout4 = `DefenseTalk.vrb'.
 
  (./DefenseTalk.vrb
-<./img/groups_depth.pdf, id=5587, 483.69685pt x 152.27177pt>
+<./img/groups_depth.pdf, id=5596, 483.69685pt x 152.27177pt>
 File: ./img/groups_depth.pdf Graphic file (type pdf)
 
 <use ./img/groups_depth.pdf>
@@ -1850,46 +1850,43 @@ Package pdftex.def Info: ./img/groups_depth.pdf used on input line 4.
 \openout4 = `DefenseTalk.vrb'.
 
  (./DefenseTalk.vrb
-File: ./img/groups_map.pdf Graphic file (type pdf)
+<./img/groups_map2.pdf, id=5851, 546.85837pt x 237.48628pt>
+File: ./img/groups_map2.pdf Graphic file (type pdf)
 
-<use ./img/groups_map.pdf>
-Package pdftex.def Info: ./img/groups_map.pdf used on input line 3.
-(pdftex.def)             Requested size: 341.43352pt x 172.08717pt.
+<use ./img/groups_map2.pdf>
+Package pdftex.def Info: ./img/groups_map2.pdf used on input line 3.
+(pdftex.def)             Requested size: 341.43352pt x 148.27635pt.
 ) [25
 
-]
+ <./img/groups_map2.pdf>]
 \openout4 = `DefenseTalk.vrb'.
 
  (./DefenseTalk.vrb
-<./img/Rgrth_freqency.pdf, id=5848, 251.80386pt x 293.4116pt>
-File: ./img/Rgrth_freqency.pdf Graphic file (type pdf)
+<./img/Frequency_cut_edgrgrth_bath.png, id=6662, 624.95482pt x 537.32745pt>
+File: ./img/Frequency_cut_edgrgrth_bath.png Graphic file (type png)
 
-<use ./img/Rgrth_freqency.pdf>
-Package pdftex.def Info: ./img/Rgrth_freqency.pdf used on input line 6.
-(pdftex.def)             Requested size: 170.71675pt x 198.93076pt.
-
-Overfull \hbox (11.38358pt too wide) detected at line 16
-[][][] $[]$[][][][][][][][] $[]$[][][][][][][][] $[]$[][][][][][] 
- []
-
+<use ./img/Frequency_cut_edgrgrth_bath.png>
+Package pdftex.def Info: ./img/Frequency_cut_edgrgrth_bath.png used on input li
+ne 4.
+(pdftex.def)             Requested size: 239.00241pt x 205.49017pt.
 ) [26
 
- <./img/Rgrth_freqency.pdf>]
+ <./img/Frequency_cut_edgrgrth_bath.png>]
 \openout4 = `DefenseTalk.vrb'.
 
  (./DefenseTalk.vrb
-<./img/EM_profile.pdf, id=6519, 312.98033pt x 236.27158pt>
+<./img/EM_profile.pdf, id=6669, 355.8713pt x 247.09048pt>
 File: ./img/EM_profile.pdf Graphic file (type pdf)
 
 <use ./img/EM_profile.pdf>
 Package pdftex.def Info: ./img/EM_profile.pdf used on input line 7.
-(pdftex.def)             Requested size: 122.91335pt x 92.78726pt.
- <./img/USL.pdf, id=6520, 312.98033pt x 133.382pt>
+(pdftex.def)             Requested size: 136.57132pt x 94.82661pt.
+ <./img/USL.pdf, id=6670, 312.98033pt x 133.382pt>
 File: ./img/USL.pdf Graphic file (type pdf)
 
 <use ./img/USL.pdf>
 Package pdftex.def Info: ./img/USL.pdf used on input line 12.
-(pdftex.def)             Requested size: 184.37471pt x 78.57664pt.
+(pdftex.def)             Requested size: 194.61844pt x 82.94225pt.
 ) [27
 
  <./img/EM_profile.pdf> <./img/USL.pdf
@@ -1900,71 +1897,69 @@ pdfTeX warning: /usr/bin/pdflatex (file ./img/USL.pdf): PDF inclusion: multiple
 \openout4 = `DefenseTalk.vrb'.
 
  (./DefenseTalk.vrb
-<./img/ESS_modes.pdf, id=7628, 483.69685pt x 277.84718pt>
-File: ./img/ESS_modes.pdf Graphic file (type pdf)
+<./img/ESS_modes.png, id=8717, 468.49028pt x 277.87814pt>
+File: ./img/ESS_modes.png Graphic file (type png)
 
-<use ./img/ESS_modes.pdf>
-Package pdftex.def Info: ./img/ESS_modes.pdf used on input line 3.
-(pdftex.def)             Requested size: 307.28807pt x 176.51578pt.
+<use ./img/ESS_modes.png>
+Package pdftex.def Info: ./img/ESS_modes.png used on input line 3.
+(pdftex.def)             Requested size: 307.28807pt x 182.26804pt.
 ) [28
 
- <./img/ESS_modes.pdf>]
+ <./img/ESS_modes.png>]
 \openout4 = `DefenseTalk.vrb'.
 
  (./DefenseTalk.vrb
-<./img/LowAO_Rigor.PNG, id=7878, 194.97844pt x 175.40532pt>
-File: ./img/LowAO_Rigor.PNG Graphic file (type png)
+<./img/AO-.pdf, id=8724, 530.76393pt x 569.03595pt>
+File: ./img/AO-.pdf Graphic file (type pdf)
+ <use ./img/AO-.pdf>
+Package pdftex.def Info: ./img/AO-.pdf used on input line 5.
+(pdftex.def)             Requested size: 153.64403pt x 164.72098pt.
 
-<use ./img/LowAO_Rigor.PNG>
-Package pdftex.def Info: ./img/LowAO_Rigor.PNG used on input line 5.
-(pdftex.def)             Requested size: 153.64403pt x 138.22607pt.
+<./img/AO+.pdf, id=8725, 530.76393pt x 594.17589pt>
+File: ./img/AO+.pdf Graphic file (type pdf)
+ <use ./img/AO+.pdf>
+Package pdftex.def Info: ./img/AO+.pdf used on input line 9.
+(pdftex.def)             Requested size: 153.64403pt x 171.99832pt.
+)
+[29
 
-<./img/HighAO_Rigor.PNG, id=7879, 193.47281pt x 172.39406pt>
-File: ./img/HighAO_Rigor.PNG Graphic file (type png)
+ <./img/AO-.pdf> <./img/AO+.pdf
 
-<use ./img/HighAO_Rigor.PNG>
-Package pdftex.def Info: ./img/HighAO_Rigor.PNG used on input line 8.
-(pdftex.def)             Requested size: 153.64403pt x 136.9053pt.
-) [29
-
- <./img/LowAO_Rigor.PNG> <./img/HighAO_Rigor.PNG>]
+pdfTeX warning: /usr/bin/pdflatex (file ./img/AO+.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+>]
 \openout4 = `DefenseTalk.vrb'.
 
- (./DefenseTalk.vrb <./img/AO.pdf, id=7887, 485.4743pt x 232.20659pt>
+ (./DefenseTalk.vrb <./img/AO.pdf, id=8883, 627.87712pt x 300.82573pt>
 File: ./img/AO.pdf Graphic file (type pdf)
 
 <use ./img/AO.pdf>
-Package pdftex.def Info: ./img/AO.pdf used on input line 7.
-(pdftex.def)             Requested size: 239.00241pt x 114.31723pt.
-
-</home/valeria/Jacobs/Defense/defense/img/HighAO_Rigor.PNG, id=7888, 193.47281p
-t x 172.39406pt>
-File: /home/valeria/Jacobs/Defense/defense/img/HighAO_Rigor.PNG Graphic file (t
-ype png)
-
-<use /home/valeria/Jacobs/Defense/defense/img/HighAO_Rigor.PNG>
-Package pdftex.def Info: /home/valeria/Jacobs/Defense/defense/img/HighAO_Rigor.
-PNG used on input line 14.
-(pdftex.def)             Requested size: 71.70145pt x 63.89001pt.
-
-</home/valeria/Jacobs/Defense/defense/img/LowAO_Rigor.PNG, id=7889, 194.97844pt
- x 175.40532pt>
-File: /home/valeria/Jacobs/Defense/defense/img/LowAO_Rigor.PNG Graphic file (ty
-pe png)
- <use /home/valeria/Jacobs/Defense/defense/img/LowAO_Rigor.PNG>
-Package pdftex.def Info: /home/valeria/Jacobs/Defense/defense/img/LowAO_Rigor.P
-NG used on input line 17.
-(pdftex.def)             Requested size: 71.70145pt x 64.50282pt.
+Package pdftex.def Info: ./img/AO.pdf used on input line 5.
+(pdftex.def)             Requested size: 341.43352pt x 163.58183pt.
 ) [30
 
- <./img/AO.pdf> </home/valeria/Jacobs/Defense/defense/img/HighAO_Rigor.PNG> </h
-ome/valeria/Jacobs/Defense/defense/img/LowAO_Rigor.PNG>] [31
+ <./img/AO.pdf>] [31
 
 ]
-Package atenddvi Info: Last page = 32.
+<./img/FI_imp_fin.pdf, id=9123, 482.86554pt x 1062.37209pt>
+File: ./img/FI_imp_fin.pdf Graphic file (type pdf)
+
+<use ./img/FI_imp_fin.pdf>
+Package pdftex.def Info: ./img/FI_imp_fin.pdf used on input line 973.
+(pdftex.def)             Requested size: 40.9718pt x 90.13022pt.
  [32
 
-]
+ <./img/FI_imp_fin.pdf>]
+<./img/logos.pdf, id=9143, 987.44911pt x 114.66841pt>
+File: ./img/logos.pdf Graphic file (type pdf)
+ <use ./img/logos.pdf>
+Package pdftex.def Info: ./img/logos.pdf used on input line 981.
+(pdftex.def)             Requested size: 307.28807pt x 35.6833pt.
+Package atenddvi Info: Last page = 33.
+
+[33
+
+ <./img/logos.pdf>]
 \tf@nav=\write6
 \openout6 = `DefenseTalk.nav'.
 
@@ -1974,26 +1969,25 @@ Package atenddvi Info: Last page = 32.
 \tf@snm=\write8
 \openout8 = `DefenseTalk.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 964.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 964.
-
-(./DefenseTalk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 964.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 964.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 982.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 982.
+ (./DefenseTalk.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 982.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 982.
 Package rerunfilecheck Info: File `DefenseTalk.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 964.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 982.
  ) 
 Here is how much of TeX's memory you used:
- 32486 strings out of 493029
- 663991 string characters out of 6136234
- 756491 words of memory out of 5000000
- 35196 multiletter control sequences out of 15000+600000
- 48925 words of font info for 45 fonts, out of 8000000 for 9000
+ 32494 strings out of 493029
+ 663767 string characters out of 6136234
+ 756696 words of memory out of 5000000
+ 35201 multiletter control sequences out of 15000+600000
+ 46210 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,15n,83p,10393b,1024s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
@@ -2003,10 +1997,10 @@ i8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/symbols/msam5.pfb>
-Output written on DefenseTalk.pdf (32 pages, 36537588 bytes).
+Output written on DefenseTalk.pdf (33 pages, 49248191 bytes).
 PDF statistics:
- 8049 PDF objects out of 8907 (max. 8388607)
- 4850 compressed objects within 49 object streams
- 65 named destinations out of 1000 (max. 500000)
- 2017 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 9204 PDF objects out of 10688 (max. 8388607)
+ 5620 compressed objects within 57 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 2022 words of extra memory for PDF output out of 10000 (max. 10000000)
 
